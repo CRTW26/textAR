@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4822EE51255A8558000203C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822EE50255A8558000203C0 /* AppDelegate.swift */; };
 		4822EE53255A8558000203C0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 4822EE52255A8558000203C0 /* art.scnassets */; };
-		4822EE55255A8558000203C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822EE54255A8558000203C0 /* ViewController.swift */; };
+		4822EE55255A8558000203C0 /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4822EE54255A8558000203C0 /* ARViewController.swift */; };
 		4822EE58255A8558000203C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4822EE56255A8558000203C0 /* Main.storyboard */; };
 		4822EE5A255A8559000203C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4822EE59255A8559000203C0 /* Assets.xcassets */; };
 		4822EE5D255A8559000203C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4822EE5B255A8559000203C0 /* LaunchScreen.storyboard */; };
+		4872F67F255C3E4600E2B60D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4872F67E255C3E4600E2B60D /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4822EE4D255A8558000203C0 /* textAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4822EE50255A8558000203C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4822EE52255A8558000203C0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		4822EE54255A8558000203C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4822EE54255A8558000203C0 /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		4822EE57255A8558000203C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4822EE59255A8559000203C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4822EE5C255A8559000203C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4822EE5E255A8559000203C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4872F67E255C3E4600E2B60D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +60,9 @@
 			children = (
 				4822EE50255A8558000203C0 /* AppDelegate.swift */,
 				4822EE52255A8558000203C0 /* art.scnassets */,
-				4822EE54255A8558000203C0 /* ViewController.swift */,
+				4822EE54255A8558000203C0 /* ARViewController.swift */,
 				4822EE56255A8558000203C0 /* Main.storyboard */,
+				4872F67E255C3E4600E2B60D /* ViewController.swift */,
 				4822EE59255A8559000203C0 /* Assets.xcassets */,
 				4822EE5B255A8559000203C0 /* LaunchScreen.storyboard */,
 				4822EE5E255A8559000203C0 /* Info.plist */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4822EE55255A8558000203C0 /* ViewController.swift in Sources */,
+				4872F67F255C3E4600E2B60D /* ViewController.swift in Sources */,
+				4822EE55255A8558000203C0 /* ARViewController.swift in Sources */,
 				4822EE51255A8558000203C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
